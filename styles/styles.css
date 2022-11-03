@@ -1,0 +1,114 @@
+body {
+    background-color: #aad4cf;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-header {
+    width: 1024px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+
+.overlay-header {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 60px;
+}
+
+.container-body {
+    width: 1024px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.life-header, .facts-header {
+    color: black;
+    font-size: 50px;
+}
+
+.facts-header, .contact-header {
+    font-size: 40px;
+}
+
+.article-content {
+    text-align: justify;
+    font-size: 20px;
+}
+
+.facts-list {
+    font-size: 20px;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    text-align: center;
+}
+
+.nav-links:last-child {
+    border-right: none;
+}
+
+.li-nav {
+    float: left;
+    border-right: 1px solid black;
+}
+
+
+.li-nav:last-child {
+    border-right: none;
+}
+
+a {
+    display: block;
+    color: black;
+    padding: 10px 60px;
+    text-decoration: none; 
+    margin: 0 auto;
+}
+
+.text-fields, .text-message {
+    width: 95%;
+    height: 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.text-message {
+    height: 40px;
+}
+
+.form-box {
+    border: 3px solid black;
+}
+
+.contact-form {
+    margin: 20px
+}
+
+.text-lables {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.radio-labels {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.send-button {
+    padding: 15px;
+}
